@@ -30,8 +30,10 @@
 
 
 #### How to use:
-1. Run usb_ulpi.py after setting up Migen environment
+1. Run usb_ulpi.py after se...tting up Migen environment
 2. Copy the generated code `usb_ulpi.v` to `gateware/ip_repo/USB_Device_1.0/src/usb_ulpi.v`. Overwrite the existing one.
 3. Create Vivado project with the IP and provided constraints file.
-4. [TODO] Add Sample Vivado Block Diagram
+4. [Sample Vivado Block Diagram][1]
 5. After bitstream is generated, create Vivado SDK project with provided `basic.c` file. Run the program on `Zybo`.
+
+[1]: doc/Sample_design_portrait.pdf
